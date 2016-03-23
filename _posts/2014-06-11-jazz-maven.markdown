@@ -28,7 +28,7 @@ Para seguir as instruções, você precisará de:
 
 ## Passo 2: Configurar os plugins release e RTC no pom.xml
 
-Para poder gerar releases, você precisará do plugin release referenciando o plugin do Jazz RTC. Não se preocupe, é bem simples. É só adicionar dentro de <build><plugins> a conteúdo como abaixo:
+Para poder gerar releases, você precisará do plugin release referenciando o plugin do Jazz RTC. Não se preocupe, é bem simples. É só adicionar dentro de build-plugins o conteúdo como abaixo:
 
 {% highlight xml %}
 <build>
@@ -57,7 +57,7 @@ Para poder gerar releases, você precisará do plugin release referenciando o pl
 
 ## Passo 3: Referenciar o repositório RTC e o workspace no pom.xml
 
-Para que o Maven conheça qual repositório deve acessar, você precisa adicionar a tag <scm> referenciando o repositório e o workspace de build no seu arquivo pom.xml
+Para que o Maven conheça qual repositório deve acessar, você precisa adicionar a tag "scm" referenciando o repositório e o workspace de build no seu arquivo pom.xml
 
 {% highlight xml %}
 <scm>
